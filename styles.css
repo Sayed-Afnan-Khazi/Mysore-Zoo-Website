@@ -1,0 +1,14 @@
+:root {
+    --text: #070a05;
+    --background: #f7faf3;
+    --primary: #30451d;
+    --secondary: #bbe298;
+    --accent: #a1dd6c;
+}
+.navbar {
+    background-color: var(--primary);
+    color: var(--background);
+}
+.navbar-text {
+    color: var(--background);
+}
