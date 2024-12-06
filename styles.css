@@ -1,14 +1,57 @@
+.zen-tokyo-zoo-regular{
+    font-family: "Zen Tokyo Zoo";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lora-font {
+    font-family: "Lora";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 :root {
-    --text: #070a05;
-    --background: #f7faf3;
-    --primary: #30451d;
+    --text: #eaebe9;
+    --background: #070a05;
+    --primary: #233215;
     --secondary: #bbe298;
-    --accent: #a1dd6c;
+    --accent: #8cc45b;
+  }
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
 }
 .navbar {
-    background-color: var(--primary);
-    color: var(--background);
+    background-color: var(--background);
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
 }
 .navbar-text {
-    color: var(--background);
+    color: var(--text);
+}
+
+.primary-bg {
+    background-color: var(--primary);
+    color: var(--text);
+}
+
+.nav-link:hover {
+    color: var(--accent);
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 1px var(--accent));
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-brand {
+        width: 70%;
+    }
 }
