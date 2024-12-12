@@ -9,13 +9,14 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 :root {
     --text: #eaebe9;
     --background: #070a05;
     --primary: #233215;
-    --secondary: #bbe298;
+    --primary-dark: #16200e;
+    --secondary: #576f42;
     --accent: #8cc45b;
   }
 
@@ -54,4 +55,97 @@ body {
     .navbar-brand {
         width: 70%;
     }
+}
+
+p {
+    text-align: justify;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+.pr-4 {
+    padding-bottom: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.v-align-top {
+    vertical-align: top;
+}
+.text-align-left {
+    text-align: left;
+}
+
+.btn-green {
+    background-color: var(--primary-dark);
+    color: var(--text);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn-green:hover {
+    background-color: var(--background);
+}
+
+.bg-fox-steps {
+    background: url('./assets/footsteps.png') no-repeat;
+}
+
+.bg-orange {
+    background-color: #ba5020;
+}
+
+.circle-img {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    border: 10px solid var(--primary-dark);
+    width: 400px;
+}
+
+.btn-regular {
+    background-color: var(--primary);
+    color: var(--text);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn-regular:hover {
+    background-color: var(--primary-dark);
+}
+
+.footer-title-underline {
+    text-decoration: underline;
+    text-decoration-color: var(--primary-dark);
+    text-decoration-thickness:8px;
+    font-size: 2rem;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.footer-subtitle-underline {
+    text-decoration: underline;
+    text-decoration-color: var(--primary-dark);
+    text-decoration-thickness:5px;
+    font-size: 1.5rem;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: var(--secondary);
+    text-decoration-color: var(--primary-dark);
+    text-decoration-thickness:3px;
+}
+
+.copyright {
+    font-style: italic;
 }
