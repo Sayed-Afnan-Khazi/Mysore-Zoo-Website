@@ -149,3 +149,50 @@ a:hover {
 .copyright {
     font-style: italic;
 }
+
+.hero {
+    height: 80vh;
+}
+
+.hero-animals {
+    background: url('./assets/animals-bg.jpg') no-repeat;
+}
+
+.hero-main {
+    background-color: rgba(0, 0, 0, 0.477);
+}
+
+.hero-title {
+    font-size: 7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+}
+
+.v-align-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-item > img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.behind {
+    z-index: -1;
+}
+
+.btn-accent {
+    background-color: var(--accent);
+    color: var(--text);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
