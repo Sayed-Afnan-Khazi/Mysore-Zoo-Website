@@ -196,3 +196,25 @@ a:hover {
     font-size: 1.2rem;
     cursor: pointer;
 }
+
+.card {
+    background-color: var(--primary-dark);
+    color: var(--text);
+    border: none;
+}
+
+.card-title {
+    font-family: 'Lora', serif;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+}
+
+.card-text {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
