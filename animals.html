@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mysore Zoo</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,48 +58,757 @@
         </div>
       </div>
       <div class="px-4 py-5 my-8 text-center hero hero-main v-align-center" style="position: relative; z-index: 1;">
-        <h1 class="display-1 hero-title fw-bold text-body-emphasis zen-tokyo-zoo-regular">Our Animal Family</h1>
+        <h1 class="display-1 hero-title fw-bold text-body-emphasis zen-tokyo-zoo-regular">Our Family Members</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Mysuru Zoo is home to a wide variety of animals from around the world. Explore our animal family and learn more about them.</p>
         </div>
       </div>
       <div class="container-fluid text-center bg-black">
-        <div class="row p-3">
-          <div class="col-12 col-md-6">
-            <img src="./assets/explore-zoo.png" class="img-fluid" alt="Explore Zoo">
+        <div class="row p-3 pt-4">
+          <div class="col">
+            <h1 class="display-4 text-center zen-tokyo-zoo-regular"><strong>Learn More About Our Family Members</strong></h1>
           </div>
-          <div class="col-12 col-md-6 container-fluid">
-            <p>Mysuru Zoo is one of the oldest zoos of the country established by his highness, the erstwhile ruler of Mysuru Sri Chamarajendra Wadiyar Bahadur. Mysuru Zoo is known for its meticulous planning, cleanliness, conservation, breeding of endangered species, and housing exotic animals from around the globe and recreation of natural habitat for captive animals.</p>
-            <p>The zoo is located in the heart of the city and its easy accessibility for public transport and other various tourist places has made it a much favored tourist center. Mysuru Zoo sports favorable climate, the temperatures goes up to 35 degrees in peak summer and below 20 degrees in winters.</p>
+          <div class="d-flex justify-content-center my-4 flex-wrap gap-3">
+            <a href="#herbivores" class="btn btn-regular btn-lg">Herbivores</a>
+            <a href="#carnivores" class="btn btn-regular btn-lg">Carnivores</a>
+            <a href="#birds" class="btn btn-regular btn-lg">Birds</a>
+            <a href="#primates" class="btn btn-regular btn-lg">Primates</a>
+            <a href="#reptiles" class="btn btn-regular btn-lg">Reptiles</a>
+            <a href="#omnivores" class="btn btn-regular btn-lg">Omnivores</a>
           </div>
         </div>
-        <div class="row p-3 pt-4 primary-bg">
-          <h1 class="display-3 text-white zen-tokyo-zoo-regular"><strong>Our Mission & History</strong></h1>
-        </div>
-        <div class="row p-3 primary-bg">
-          <div class="col-12 col-md-7">
-            <p><em>"To connect visitors and animals through exemplary animal welfare and care, best educational and inspirational experiences, fostering public appreciation and support for wild animals and conservation”</em></p>
-            <h1 class="display-4 p-3 zen-tokyo-zoo-regular">Our History</h1>
-            <table class="text-align-justify">
-              <tbody>
-                <tr>
-                  <td class="display-6 pr-4 v-align-top">1892</td>
-                  <td class="v-align-top">Established with 10.9 acres area</td>
-                </tr>
-                <tr>
-                  <td class="display-6 pr-4 v-align-top">1907</td>
-                  <td class="v-align-top">An additional 6.22 acres was included. For the first time, a large ape enclosure was built in the country at Mysuru Zoo</td>
-                </tr>
-                <tr>
-                  <td class="display-6 pr-4 v-align-top">1909</td>
-                  <td class="v-align-top">Zoo was named after the founder Sri Chamarajendra Wodeyar Bahadur. Mr. G.H. Krumbeigal, a German landscaper and horticulturist, was engaged to create the beautiful and attractive landscape of Mysuru Zoo ...</td>
-                </tr>
-              </tbody>
-            </table>
-            <a href="./about.html" class="btn btn-green btn-lg m-3">Read More</a>
+        <!-- Herbivores Section -->
+        <div id="herbivores" class="container py-5">
+          <h2 class="display-2 text-center mb-5 zen-tokyo-zoo-regular">Herbivores</h2>
+          <div class="row">
+            <!-- Asiatic Elephant -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Asiatic Elephant.jpg" class="card-img-top" alt="Asiatic Elephant">
+                <div class="card-body">
+                  <h5 class="card-title">Asiatic Elephant</h5>
+                  <p class="card-text">The Asiatic Elephant is a native to the Indian subcontinent. Known for their intelligence and strong social bonds.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Giraffe -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Giraffe.jpg" class="card-img-top" alt="Giraffe">
+                <div class="card-body">
+                  <h5 class="card-title">Giraffe</h5>
+                  <p class="card-text">Giraffes are the tallest land animals, recognized for their long necks and spotted patterns.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Hippopotamus -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Hippopotamus.jpg" class="card-img-top" alt="Hippopotamus">
+                <div class="card-body">
+                  <h5 class="card-title">Hippopotamus</h5>
+                  <p class="card-text">The Hippopotamus is a large, mostly herbivorous mammal native to sub-Saharan Africa.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/African elephant.jpg" class="card-img-top" alt="African Elephant">
+                <div class="card-body">
+                  <h5 class="card-title">African Elephant</h5>
+                  <p class="card-text">The African Elephant is the largest land mammal, known for its intelligence and strong social bonds.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Barasingha Swamp Deer002.jpg" class="card-img-top" alt="Barasingha Swamp Deer">
+                <div class="card-body">
+                  <h5 class="card-title">Barasingha Swamp Deer</h5>
+                  <p class="card-text">Barasingha Swamp Deer are graceful creatures native to the wetlands of India, known for their stunning antlers.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Black buck.jpg" class="card-img-top" alt="Black Buck">
+                <div class="card-body">
+                  <h5 class="card-title">Black Buck</h5>
+                  <p class="card-text">Black Bucks are agile antelopes native to the Indian subcontinent, recognized by their striking black and white markings.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Cape Buffalo.jpg" class="card-img-top" alt="Cape Buffalo">
+                <div class="card-body">
+                  <h5 class="card-title">Cape Buffalo</h5>
+                  <p class="card-text">The Cape Buffalo is a powerful bovine found in Africa, known for its formidable horns and strong herd instincts.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Four horned antelope.jpg" class="card-img-top" alt="Four Horned Antelope">
+                <div class="card-body">
+                  <h5 class="card-title">Four Horned Antelope</h5>
+                  <p class="card-text">Four Horned Antelopes are unique creatures with four distinct horns, inhabiting the forests of India.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Goral001.jpg" class="card-img-top" alt="Goral">
+                <div class="card-body">
+                  <h5 class="card-title">Goral</h5>
+                  <p class="card-text">Gorals are small ungulates found in mountainous regions, known for their agility and tufted tails.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Guar.jpg" class="card-img-top" alt="Guar">
+                <div class="card-body">
+                  <h5 class="card-title">Guar</h5>
+                  <p class="card-text">Guars are large antelopes native to the Indian subcontinent, recognized by their long, spiraling horns.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Hog Deer.jpg" class="card-img-top" alt="Hog Deer">
+                <div class="card-body">
+                  <h5 class="card-title">Hog Deer</h5>
+                  <p class="card-text">Hog Deer are slender deer found in forested areas, known for their distinctive bristly tresses.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Indian Muntjac.jpg" class="card-img-top" alt="Indian Muntjac">
+                <div class="card-body">
+                  <h5 class="card-title">Indian Muntjac</h5>
+                  <p class="card-text">Indian Muntjacs, also known as barking deer, are small ungulates with a distinctive vocalization.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/ManipurDeer002.jpg" class="card-img-top" alt="Manipur Deer">
+                <div class="card-body">
+                  <h5 class="card-title">Manipur Deer</h5>
+                  <p class="card-text">Manipur Deer are graceful animals native to the northeastern regions, adapted to dense forests.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Nilgai.jpg" class="card-img-top" alt="Nilgai">
+                <div class="card-body">
+                  <h5 class="card-title">Nilgai</h5>
+                  <p class="card-text">Nilgai, the largest antelope in India, are known for their impressive size and bluish-gray coat.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/One horned Rhino.jpg" class="card-img-top" alt="One Horned Rhino">
+                <div class="card-body">
+                  <h5 class="card-title">One Horned Rhino</h5>
+                  <p class="card-text">The One Horned Rhino is a majestic creature, recognized by its single prominent horn and armored skin.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Sambar.jpg" class="card-img-top" alt="Sambar">
+                <div class="card-body">
+                  <h5 class="card-title">Sambar</h5>
+                  <p class="card-text">Sambar deer are large, thick-built deer native to the Indian subcontinent, known for their robust antlers.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Southern white rhino.jpg" class="card-img-top" alt="Southern White Rhino">
+                <div class="card-body">
+                  <h5 class="card-title">Southern White Rhino</h5>
+                  <p class="card-text">The Southern White Rhino is one of the largest rhino species, distinguished by its wide mouth adapted for grazing.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Spotted Deer.jpg" class="card-img-top" alt="Spotted Deer">
+                <div class="card-body">
+                  <h5 class="card-title">Spotted Deer</h5>
+                  <p class="card-text">Spotted Deer, also known as chital, are agile grazers with distinctive white spots on their reddish coats.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Swamp Deer.jpg" class="card-img-top" alt="Swamp Deer">
+                <div class="card-body">
+                  <h5 class="card-title">Swamp Deer</h5>
+                  <p class="card-text">Swamp Deer are specially adapted to wetland habitats, with long legs and antlers suited for marshy terrains.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Tapir001.jpg" class="card-img-top" alt="Tapir">
+                <div class="card-body">
+                  <h5 class="card-title">Tapir</h5>
+                  <p class="card-text">Tapirs are large herbivorous mammals with distinctive short, prehensile snouts, inhabiting forested regions.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Wallaby002.jpg" class="card-img-top" alt="Wallaby">
+                <div class="card-body">
+                  <h5 class="card-title">Wallaby</h5>
+                  <p class="card-text">Wallabies are small to medium-sized marsupials similar to kangaroos, known for their agility and hopping ability.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Zebra.jpg" class="card-img-top" alt="Zebra">
+                <div class="card-body">
+                  <h5 class="card-title">Zebra</h5>
+                  <p class="card-text">Zebras are iconic African equids known for their distinctive black and white striped coats.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/herbivores/Zebra.webp" class="card-img-top" alt="Zebra">
+                <div class="card-body">
+                  <h5 class="card-title">Zebra</h5>
+                  <p class="card-text">Zebras are known for their unique stripe patterns, which help in camouflage and social interactions.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-12 col-md-5">
-            <img src="./assets/chimp.png" class="img-fluid" alt="Explore Zoo">
+        </div>
+        
+        <!-- Carnivores Section -->
+        <div id="carnivores" class="container py-5">
+          <h2 class="display-2 text-center mb-5 zen-tokyo-zoo-regular">Carnivores</h2>
+          <div class="row">
+            <!-- Asiatic Lion -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Asiatic Lion.jpg" class="card-img-top" alt="Asiatic Lion">
+                <div class="card-body">
+                  <h5 class="card-title">Asiatic Lion</h5>
+                  <p class="card-text">The Asiatic Lion is a panthera leo population surviving today only in India.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Bengal Tiger -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Tiger002.jpg" class="card-img-top" alt="Bengal Tiger">
+                <div class="card-body">
+                  <h5 class="card-title">Bengal Tiger</h5>
+                  <p class="card-text">Bengal Tigers are majestic big cats known for their power and strength.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Jaguar -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Jaguar002.jpg" class="card-img-top" alt="Jaguar">
+                <div class="card-body">
+                  <h5 class="card-title">Jaguar</h5>
+                  <p class="card-text">The Jaguar is the largest cat species in the Americas and third largest in the world.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/African Hunting Cheetah.jpg" class="card-img-top" alt="African Hunting Cheetah">
+                <div class="card-body">
+                  <h5 class="card-title">African Hunting Cheetah</h5>
+                  <p class="card-text">The African Hunting Cheetah is renowned for its incredible speed and agility, making it the fastest land animal.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Bengal Fox.jpg" class="card-img-top" alt="Bengal Fox">
+                <div class="card-body">
+                  <h5 class="card-title">Bengal Fox</h5>
+                  <p class="card-text">The Bengal Fox is a small canid native to the Indian subcontinent, known for its adaptability and keen hunting skills.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Dhole003.jpg" class="card-img-top" alt="Dhole">
+                <div class="card-body">
+                  <h5 class="card-title">Dhole</h5>
+                  <p class="card-text">Dholes are highly social wild dogs native to Asia, recognized for their cooperative hunting strategies.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Indian grey wolf.jpg" class="card-img-top" alt="Indian Grey Wolf">
+                <div class="card-body">
+                  <h5 class="card-title">Indian Grey Wolf</h5>
+                  <p class="card-text">The Indian Grey Wolf is a resilient predator found in various habitats across India, known for its intelligence and pack behavior.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Jackal002.jpg" class="card-img-top" alt="Jackal">
+                <div class="card-body">
+                  <h5 class="card-title">Jackal</h5>
+                  <p class="card-text">Jackals are opportunistic omnivores known for their adaptability and cunning nature in the wild.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Jungle Cat.jpg" class="card-img-top" alt="Jungle Cat">
+                <div class="card-body">
+                  <h5 class="card-title">Jungle Cat</h5>
+                  <p class="card-text">The Jungle Cat is a solitary feline species found in South and Southeast Asia, admired for its elusive behavior.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Leopard Cat.jpg" class="card-img-top" alt="Leopard Cat">
+                <div class="card-body">
+                  <h5 class="card-title">Leopard Cat</h5>
+                  <p class="card-text">Leopard Cats are small wild cats native to Asia, known for their striking spotted coats and agility.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Leopard001.jpg" class="card-img-top" alt="Leopard">
+                <div class="card-body">
+                  <h5 class="card-title">Leopard</h5>
+                  <p class="card-text">Leopards are powerful big cats celebrated for their beautiful spotted fur and adaptability to diverse environments.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Otter.webp" class="card-img-top" alt="Otter">
+                <div class="card-body">
+                  <h5 class="card-title">Otter</h5>
+                  <p class="card-text">Otters are playful aquatic mammals known for their dexterity and social behavior in riverine habitats.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Slender Tailed Meerkat.jpg" class="card-img-top" alt="Slender Tailed Meerkat">
+                <div class="card-body">
+                  <h5 class="card-title">Slender Tailed Meerkat</h5>
+                  <p class="card-text">Slender Tailed Meerkats are social creatures known for their vigilant behavior and cooperative living in the wild.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Smooth Coated Otter.jpg" class="card-img-top" alt="Smooth Coated Otter">
+                <div class="card-body">
+                  <h5 class="card-title">Smooth Coated Otter</h5>
+                  <p class="card-text">The Smooth Coated Otter is distinguished by its sleek fur and is commonly found along the waterways of South Asia.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Striped Hyena.jpg" class="card-img-top" alt="Striped Hyena">
+                <div class="card-body">
+                  <h5 class="card-title">Striped Hyena</h5>
+                  <p class="card-text">Striped Hyenas are nocturnal predators known for their scavenging habits and distinctive striped coats.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/Wolf002.jpg" class="card-img-top" alt="Wolf">
+                <div class="card-body">
+                  <h5 class="card-title">Wolf</h5>
+                  <p class="card-text">Wolves are intelligent and social pack animals renowned for their strong communication and hunting prowess.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/lion.jpg" class="card-img-top" alt="Lion">
+                <div class="card-body">
+                  <h5 class="card-title">Lion</h5>
+                  <p class="card-text">Lions are majestic big cats known as the "king of the jungle," recognized for their impressive mane and social structures.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/carnivores/whitetiger.jpg" class="card-img-top" alt="White Tiger">
+                <div class="card-body">
+                  <h5 class="card-title">White Tiger</h5>
+                  <p class="card-text">White Tigers are a rare color variant of the Bengal Tiger, admired for their striking white coat and piercing eyes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Birds Section -->
+        <div id="birds" class="container py-5">
+          <h2 class="display-2 text-center mb-5 zen-tokyo-zoo-regular">Birds</h2>
+          <div class="row">
+            <!-- Blue and Gold Macaw -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/birds/Blue_Gold_Macaw.webp" class="card-img-top" alt="Blue and Gold Macaw">
+                <div class="card-body">
+                  <h5 class="card-title">Blue and Gold Macaw</h5>
+                  <p class="card-text">This colorful parrot is known for its vibrant blue and yellow plumage and social nature.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Great Indian Hornbill -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/birds/Great Indian Hornbill.jpg" class="card-img-top" alt="Great Indian Hornbill">
+                <div class="card-body">
+                  <h5 class="card-title">Great Indian Hornbill</h5>
+                  <p class="card-text">A large bird featuring a distinctive casque on its bill, native to the forests of India.</p>
+                </div>
+              </div>
+            </div>
+            <!-- White Peacock -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/birds/White Peacock.jpg" class="card-img-top" alt="White Peacock">
+                <div class="card-body">
+                  <h5 class="card-title">White Peacock</h5>
+                  <p class="card-text">The White Peacock is a rare variety known for its stunning white plumage.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Add more birds as needed -->
+          </div>
+        </div>
+        
+        <!-- Primates Section -->
+        <div id="primates" class="container py-5">
+          <h2 class="display-2 text-center mb-5 zen-tokyo-zoo-regular">Primates</h2>
+          <div class="row">
+            <!-- Chimpanzee -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Chimpanzee.jpg" class="card-img-top" alt="Chimpanzee">
+                <div class="card-body">
+                  <h5 class="card-title">Chimpanzee</h5>
+                  <p class="card-text">Chimpanzees are highly intelligent primates closely related to humans.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Orangutan -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Orangutan.webp" class="card-img-top" alt="Orangutan">
+                <div class="card-body">
+                  <h5 class="card-title">Orangutan</h5>
+                  <p class="card-text">Orangutans are great apes known for their reddish-brown hair and arboreal lifestyle.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Gorilla -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/gorilla.webp" class="card-img-top" alt="Gorilla">
+                <div class="card-body">
+                  <h5 class="card-title">Gorilla</h5>
+                  <p class="card-text">Gorillas are the largest living primates and share much of their DNA with humans.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Brown Capuchin.jpg" class="card-img-top" alt="Brown Capuchin">
+                <div class="card-body">
+                  <h5 class="card-title">Brown Capuchin</h5>
+                  <p class="card-text">Brown Capuchins are agile and intelligent primates known for their social behavior and dexterous hands.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Hamadryas baboon.jpg" class="card-img-top" alt="Hamadryas Baboon">
+                <div class="card-body">
+                  <h5 class="card-title">Hamadryas Baboon</h5>
+                  <p class="card-text">Hamadryas Baboons are distinctive primates with striking facial features and complex social structures.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Hanuman Langur.webp" class="card-img-top" alt="Hanuman Langur">
+                <div class="card-body">
+                  <h5 class="card-title">Hanuman Langur</h5>
+                  <p class="card-text">Hanuman Langurs are graceful primates recognized for their long tails and gentle demeanor.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Lemur001.jpg" class="card-img-top" alt="Lemur">
+                <div class="card-body">
+                  <h5 class="card-title">Lemur</h5>
+                  <p class="card-text">Lemurs are unique primates native to Madagascar, known for their large eyes and bushy tails.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Lion tailed macaque .jpg" class="card-img-top" alt="Lion Tailed Macaque">
+                <div class="card-body">
+                  <h5 class="card-title">Lion Tailed Macaque</h5>
+                  <p class="card-text">Lion Tailed Macaques are endemic to the Western Ghats, recognized by their distinctive mane and agile movements.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Marmoset.webp" class="card-img-top" alt="Marmoset">
+                <div class="card-body">
+                  <h5 class="card-title">Marmoset</h5>
+                  <p class="card-text">Marmosets are small primates known for their lively spirits and intricate social interactions.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Nilgiri labgur.jpg" class="card-img-top" alt="Nilgiri Labgur">
+                <div class="card-body">
+                  <h5 class="card-title">Nilgiri Labgur</h5>
+                  <p class="card-text">Nilgiri Labgurs are adapted to the hilly terrains, showcasing remarkable climbing abilities and social structures.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Rhesus macaque.jpg" class="card-img-top" alt="Rhesus Macaque">
+                <div class="card-body">
+                  <h5 class="card-title">Rhesus Macaque</h5>
+                  <p class="card-text">Rhesus Macaques are versatile primates found in diverse habitats, known for their adaptability and intelligence.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/primates/Western Hoolock Gibbon.jpg" class="card-img-top" alt="Western Hoolock Gibbon">
+                <div class="card-body">
+                  <h5 class="card-title">Western Hoolock Gibbon</h5>
+                  <p class="card-text">Western Hoolock Gibbons are masterful brachiators, famous for their melodious calls and strong family bonds.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Reptiles Section -->
+        <div id="reptiles" class="container py-5">
+          <h2 class="display-2 text-center mb-5 zen-tokyo-zoo-regular">Reptiles</h2>
+          <div class="row">
+            <!-- King Cobra -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/King cobra.jpg" class="card-img-top" alt="King Cobra">
+                <div class="card-body">
+                  <h5 class="card-title">King Cobra</h5>
+                  <p class="card-text">The King Cobra is the world's longest venomous snake, feared and respected.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Green Iguana -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Green Iguana.jpg" class="card-img-top" alt="Green Iguana">
+                <div class="card-body">
+                  <h5 class="card-title">Green Iguana</h5>
+                  <p class="card-text">A large, arboreal lizard known for its vibrant green color and dewlap.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Saltwater Crocodile -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Saltwater Crocodile.jpg" class="card-img-top" alt="Saltwater Crocodile">
+                <div class="card-body">
+                  <h5 class="card-title">Saltwater Crocodile</h5>
+                  <p class="card-text">The largest of all living reptiles, found throughout the eastern Indo-Pacific region.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/African Slender Snouted Crocodile.jpg" class="card-img-top" alt="African Slender Snouted Crocodile">
+                <div class="card-body">
+                  <h5 class="card-title">African Slender Snouted Crocodile</h5>
+                  <p class="card-text">A rare crocodile species native to West Africa, known for its long, narrow snout and excellent swimming abilities.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Gharial.jpg" class="card-img-top" alt="Gharial">
+                <div class="card-body">
+                  <h5 class="card-title">Gharial</h5>
+                  <p class="card-text">Gharials are distinguished by their long, slender snouts, native to the Indian subcontinent, primarily inhabiting rivers.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Green Vine Snake.jpg" class="card-img-top" alt="Green Vine Snake">
+                <div class="card-body">
+                  <h5 class="card-title">Green Vine Snake</h5>
+                  <p class="card-text">An arboreal snake known for its vibrant green color and slender body, adept at navigating through dense foliage.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Indian Cobra.jpg" class="card-img-top" alt="Indian Cobra">
+                <div class="card-body">
+                  <h5 class="card-title">Indian Cobra</h5>
+                  <p class="card-text">One of the most venomous snakes in India, recognized by its hood and distinctive threat display.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Malabar Pitviper.jpg" class="card-img-top" alt="Malabar Pitviper">
+                <div class="card-body">
+                  <h5 class="card-title">Malabar Pitviper</h5>
+                  <p class="card-text">A venomous snake endemic to the Western Ghats, known for its potent venom and distinctive coloration.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Monitor Lizard.jpg" class="card-img-top" alt="Monitor Lizard">
+                <div class="card-body">
+                  <h5 class="card-title">Monitor Lizard</h5>
+                  <p class="card-text">Large, intelligent reptiles known for their strong limbs and versatile hunting skills in diverse habitats.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Morelets Crocodile.jpg" class="card-img-top" alt="Morelets Crocodile">
+                <div class="card-body">
+                  <h5 class="card-title">Morelets Crocodile</h5>
+                  <p class="card-text">A freshwater crocodile species found in Southeast Asia, recognized by its moderate size and robust build.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Reticulated Python.jpg" class="card-img-top" alt="Reticulated Python">
+                <div class="card-body">
+                  <h5 class="card-title">Reticulated Python</h5>
+                  <p class="card-text">One of the world's longest snakes, known for its intricate pattern and powerful constricting abilities.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Siamese Crocodile.jpg" class="card-img-top" alt="Siamese Crocodile">
+                <div class="card-body">
+                  <h5 class="card-title">Siamese Crocodile</h5>
+                  <p class="card-text">A critically endangered crocodile species native to Southeast Asia, recognized by its relatively small size and distinct markings.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/reptiles/Spectacled caiman.jpg" class="card-img-top" alt="Spectacled Caiman">
+                <div class="card-body">
+                  <h5 class="card-title">Spectacled Caiman</h5>
+                  <p class="card-text">Named for the bony ridge between their eyes, these caimans are common in freshwater habitats across South America.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Omnivores Section -->
+        <div id="omnivores" class="container py-5">
+          <h2 class="display-2 text-center mb-5 zen-tokyo-zoo-regular">Omnivores</h2>
+          <div class="row">
+            <!-- Sloth Bear -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/omnivores/SlothBear002.jpg" class="card-img-top" alt="Sloth Bear">
+                <div class="card-body">
+                  <h5 class="card-title">Sloth Bear</h5>
+                  <p class="card-text">Native to the Indian subcontinent, known for their shaggy coat and love for honey.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Asiatic Bear -->
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="./assets/animals/omnivores/Asiatic Bear.jpg" class="card-img-top" alt="Asiatic Bear">
+                <div class="card-body">
+                  <h5 class="card-title">Asiatic Bear</h5>
+                  <p class="card-text">Also known as the moon bear, recognized by the white crescent moon shape on their chest.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -117,7 +826,7 @@
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h5 class="mb-4 font-weight-bold footer-title-underline">Quick Links</h5>
               <ul class="list-unstyled">
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="./assets/index.html">Home</a></li>
                 <li><a href="./about.html">About Zoo</a></li>
                 <li><a href="./animals.html">Animals</a></li>
                 <li><a href="./education.html">Community</a></li>
