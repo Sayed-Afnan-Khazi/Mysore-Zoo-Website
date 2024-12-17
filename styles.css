@@ -105,6 +105,21 @@ p {
     width: 400px;
 }
 
+
+.circle-img-h-250 {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    border: 10px solid var(--primary-dark);
+    width: 250px;
+}
+
+.circle-img-h-350 {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    border: 10px solid var(--primary-dark);
+    width: 350px;
+}
+
 .btn-regular {
     background-color: var(--primary);
     color: var(--text);
@@ -201,6 +216,12 @@ a:hover {
     background-color: var(--primary-dark);
     color: var(--text);
     border: none;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    background-color: var(--primary);
 }
 
 .card-title {
@@ -217,4 +238,14 @@ a:hover {
 
 .card-img-top {
     object-fit: cover;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--background);
+}
+
+.decor-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: var(--accent);
 }
