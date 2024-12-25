@@ -249,3 +249,7 @@ a:hover {
     text-decoration-thickness: 5px;
     text-decoration-color: var(--accent);
 }
+
+.bank-table > tbody > tr > td {
+    background-color: var(--primary-dark) !important;
+}

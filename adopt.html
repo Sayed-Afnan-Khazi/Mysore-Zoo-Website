@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mysore Zoo</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,132 +44,579 @@
           </div>
         </div>
       </nav>
-      <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselAutoplaying" class="carousel slide hero" data-bs-ride="carousel" style="position: absolute; top: 0; left: 0; width: 100%; z-index: -1;">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/elephant.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1 class="display-1 text-white zen-tokyo-zoo-regular"><strong>Welcome to Mysore Zoo</strong></h1>
-              <!-- <p class="display-5 text-white"><em>We eagerly await your visit.</em></p> -->
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/twotiger.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/HeroChimp.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/animals/carnivores/Striped Hyena.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button>
+        </button> -->
       </div>
-      <div class="container-fluid text-center">
+      <div class="px-4 py-5 my-8 text-center hero hero-main v-align-center" style="position: relative; z-index: 1;">
+        <h1 class="display-1 hero-title fw-bold text-body-emphasis zen-tokyo-zoo-regular">Adoption</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Adopt your favourite animal and contribute towards their welfare and conservation. Patrons who adopt an animal not only support the zoo's efforts in providing the best care for the animals but also enjoy exclusive visit benefits such as free entry passes, behind-the-scenes tours, and special events. Your contributions may be tax-deductible.</p>
+          <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-regular px-4 gap-3">Buy Tickets</button>
+            <button type="button" class="btn btn-green btn-lg px-4">Map & Amenities</button>
+          </div> -->
+        </div>
+      </div>
+      <div class="container-fluid bg-black">
         <div class="row p-3 pt-4">
           <div class="col">
-            <h1 class="display-3 zen-tokyo-zoo-regular"><strong>Sri Chamarajendra Zoological Gardens</strong></h1>
+            <h1 class="display-3 text-center zen-tokyo-zoo-regular"><strong>Why Adopt?</strong></h1>
           </div>
         </div>
         <div class="row p-3">
-          <div class="col-12 col-md-6">
-            <img src="./assets/explore-zoo.png" class="img-fluid" alt="Explore Zoo">
+          <div class="col-12 col-md-7 container-fluid">
+            <p>The adoption programme is a novel way to show your support and care for wild animals. By adopting your favourite animal, you will contribute towards feeding of the animal for one full year (or period of adoption). You will be part of Mysuru Zoo’s efforts in wildlife conservation.</p>
+            <p>Mysuru Zoo is involved in captive breeding programme of endangered species and other conservation projects -all of which need the support of concerned people like you.</p>
+            <p>Finally adopting an animal is fun not only for you, but for your friends and family too. An adoption makes a great gift for birthdays, anniversaries etc., and is always unique. Show your concern towards conservation.</p>
           </div>
-          <div class="col-12 col-md-6 container-fluid">
-            <p>Mysuru Zoo is one of the oldest zoos of the country established by his highness, the erstwhile ruler of Mysuru Sri Chamarajendra Wadiyar Bahadur. Mysuru Zoo is known for its meticulous planning, cleanliness, conservation, breeding of endangered species, and housing exotic animals from around the globe and recreation of natural habitat for captive animals.</p>
-            <p>The zoo is located in the heart of the city and its easy accessibility for public transport and other various tourist places has made it a much favored tourist center. Mysuru Zoo sports favorable climate, the temperatures goes up to 35 degrees in peak summer and below 20 degrees in winters.</p>
-          </div>
+            <div class="col-12 col-md-5">
+            <img src="./assets/adoption-elephant.png" class="img-fluid" alt="Explore Zoo">
+            </div>
         </div>
         <div class="row p-3 pt-4 primary-bg">
-          <h1 class="display-3 text-white zen-tokyo-zoo-regular"><strong>Our Mission & History</strong></h1>
+          <h1 class="display-3 text-white zen-tokyo-zoo-regular text-center"><strong>How to Adopt?</strong></h1>
         </div>
         <div class="row p-3 primary-bg">
-          <div class="col-12 col-md-7">
-            <p><em>"To connect visitors and animals through exemplary animal welfare and care, best educational and inspirational experiences, fostering public appreciation and support for wild animals and conservation”</em></p>
-            <h1 class="display-4 p-3 zen-tokyo-zoo-regular">Our History</h1>
-            <table class="text-align-justify">
-              <tbody>
-                <tr>
-                  <td class="display-6 pr-4 v-align-top">1892</td>
-                  <td class="v-align-top">Established with 10.9 acres area</td>
-                </tr>
-                <tr>
-                  <td class="display-6 pr-4 v-align-top">1907</td>
-                  <td class="v-align-top">An additional 6.22 acres was included. For the first time, a large ape enclosure was built in the country at Mysuru Zoo</td>
-                </tr>
-                <tr>
-                  <td class="display-6 pr-4 v-align-top">1909</td>
-                  <td class="v-align-top">Zoo was named after the founder Sri Chamarajendra Wodeyar Bahadur. Mr. G.H. Krumbeigal, a German landscaper and horticulturist, was engaged to create the beautiful and attractive landscape of Mysuru Zoo ...</td>
-                </tr>
-              </tbody>
-            </table>
-            <a href="./about.html" class="btn btn-green btn-lg m-3">Read More</a>
-          </div>
-          <div class="col-12 col-md-5">
-            <img src="./assets/chimp.png" class="img-fluid" alt="Explore Zoo">
-          </div>
+            <div class="col-12 col-md-5 p-3 text-center">
+              <img src="./assets/adopt.png" class="img-fluid circle-img-h-350" alt="Explore Zoo">
+            </div>
+            <div class="col-12 col-md-7 mx-auto">
+              <table class="text-align-justify">
+                <tbody>
+                  <tr>
+                    <td class="h3 pr-4 v-align-top">
+                      <img src="./assets/adopt-icon1.svg" alt="Pick Animal">
+                    </td>
+                    <td class="v-align-top">
+                      Pick your favourite animal/s from the list noted in this leaflet
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="h3 pr-4 v-align-top">
+                      <img src="./assets/adopt-icon2.svg" alt="Choose Support">
+                    </td>
+                    <td class="v-align-top">
+                      Choose a level of support
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="h3 pr-4 v-align-top">
+                      <img src="./assets/adopt-icon3.svg" alt="Fill Form">
+                    </td>
+                    <td class="v-align-top">
+                      Fill in the attached form and submit it to the Zoo office along with payment
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="h3 pr-4 v-align-top">
+                      <img src="./assets/adopt-icon4.svg" alt="Gift Option">
+                    </td>
+                    <td class="v-align-top">
+                      You can also gift an adopted animal to your friends, parents or relatives and children
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
         </div>
-      </div>
-      <footer class="primary-bg pt-5 pb-4">
-        <div class="container text-md-left">
-          <div class="row text-md-left">
-            <!-- Column 1 -->
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline">Mysore Zoo</h5>
-              <p>
-                Experience wildlife like never before. Visit us to explore diverse flora and fauna.
-              </p>
+        <div class="row p-3">
+          <h1 class="display-3 zen-tokyo-zoo-regular text-center mb-5"><strong>Adoption Tiers</strong></h1>
+
+          <!-- Diamond Class -->
+          <div class="col-12 mb-5">
+            <h2 class="display-4 zen-tokyo-zoo-regular text-center">Diamond Class</h2>
+            <div class="col-md-8 mx-auto mb-4">
+              <table class="text-align-justify">
+                <tbody>
+                  <tr>
+                    <td class="h3 pr-4 v-align-top">🎖️</td>
+                    <td class="v-align-top">
+                      <p>Privileges for one-year adoptions:</p>
+                      <ul>
+                        <li>One year free complimentary pass for 5 Members, 5 Visits per year</li>
+                        <li>Official Certificate of adoption</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <!-- Column 2 -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline">Quick Links</h5>
-              <ul class="list-unstyled">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Zoo</a></li>
-                <li><a href="./animals.html">Animals</a></li>
-                <li><a href="./education.html">Community</a></li>
-                <li><a href="./visit.html">Visit</a></li>
-                <li><a href="./Adopt.html">Adopt</a></li>
-              </ul>
-            </div>
-            <!-- Column 3 -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline">Community</h5>
-              <ul class="list-unstyled">
-                <li><a href="#" >Events</a></li>
-                <li><a href="#" >Education</a></li>
-                <li><a href="#" >Conservation</a></li>
-                <li><a href="#" >Volunteer</a></li>
-              </ul>
-            </div>
-            <!-- Column 4 -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline bigger-font">Contact</h5>
-              <p><span class="footer-subtitle-underline">Address:</span> Sri Chamarajendra Zoological Gardens, Zoo Main Road Indiranagar, Mysore, Karnataka 570010</p>
-              <p><span class="footer-subtitle-underline">Email:</span> <a href="mailto:zoomysore@gmail.com">zoomysore@gmail.com</a></p>
-              <p><span class="footer-subtitle-underline">Phone:</span> <a href="tel:+918212440752">+91 0821 244 0752</a></p>
+        
+            <div class="row g-4 mx-auto">
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹3,00,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Asiatic Elephant</li>
+                      <li>African Elephant</li>
+                      <li>Gorilla</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹2,00,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Asiatic Lion</li>
+                      <li>African Lion</li>
+                      <li>Tiger (white)</li>
+                      <li>Bengal Tiger</li>
+                      <li>Giraffe</li>
+                      <li>Orangutan</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹1,50,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Chimpanzee</li>
+                      <li>Indian Rhinoceros</li>
+                      <li>Southern White Rhinoceros</li>
+                      <li>Hippopotamus</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹75,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Zebra</li>
+                      <li>African Hunting Cheetah</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <hr class="mb-4">
-          <div class="row align-items-center">
-            <div class="col-md-7 col-lg-8">
-              <p class="copyright">© 2023 Mysore Zoo. All Rights Reserved.</p>
+        
+          <!-- Gold Class -->
+          <div class="col-12 mb-5">
+            <h2 class="display-4 zen-tokyo-zoo-regular text-center">Gold Class</h2>
+            <div class="col-md-8 mx-auto mb-4">
+              <table class="text-align-justify">
+                <tbody>
+                  <tr>
+                    <td class="h3 pr-4 v-align-top">🏆</td>
+                    <td class="v-align-top">
+                      <p>Privileges for one-year adoptions:</p>
+                      <ul>
+                        <li>One year free complimentary pass for 5 Members, 3 Visits per year</li>
+                        <li>Official Certificate of adoption</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div class="col-md-5 col-lg-4">
-              <div class="text-center text-md-right">
-                <span>Follow us:</span>
-                <a href="https://www.facebook.com/srichamarajendra.zoologicalgardens" class="me-4">Facebook</a>
-                <a href="https://x.com/Mysore_Zoo" class="me-4">Twitter</a>
-                <a href="https://www.instagram.com/mysuru_zoo/" class="me-4">Instagram</a>
+        
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹50,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Panther</li>
+                      <li>Indian Leopard</li>
+                      <li>Sloth Bear</li>
+                      <li>Asiatic Black Bear</li>
+                      <li>Gaur</li>
+                      <li>Jaguar</li>
+                      <li>Cape Buffalo</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹30,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Indian Fox</li>
+                      <li>Golden Jackal</li>
+                      <li>Indian Grey Wolf</li>
+                      <li>Striped Hyena</li>
+                      <li>Dhole</li>
+                      <li>Lion Tailed Macaque</li>
+                      <li>Common Langur</li>
+                      <li>Nilgiri Langur</li>
+                      <li>Hamadryas Baboon</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹25,000</h3>
+                    <ul class="list-unstyled">
+                      <li>South American Tapir</li>
+                      <li>Tawny Eagle</li>
+                      <li>Lesser Adjutant Stork</li>
+                      <li>Great White Pelican</li>
+                      <li>Spot-Billed Pelican</li>
+                      <li>Scarlet Ibis</li>
+                      <li>Brahminy Kite</li>
+                      <li>Ring-Tailed Lemur</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹20,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Hoolock Gibbon</li>
+                      <li>Meerkat</li>
+                      <li>Nilgai</li>
+                      <li>Common Ostrich</li>
+                      <li>Darwin's Rhea</li>
+                      <li>Cassowary</li>
+                      <li>Emu</li>
+                      <li>Green Anaconda</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Silver Class -->
+          <div class="col-12 mb-5">
+            <h2 class="display-4 zen-tokyo-zoo-regular text-center">Silver Class</h2>
+            <div class="col-md-8 mx-auto mb-4">
+              <table class="text-align-justify">
+                <tbody>
+                  <tr>
+                    <td class="h3 pr-4 v-align-top">🥈</td>
+                    <td class="v-align-top">
+                      <p>Privileges for one-year adoptions:</p>
+                      <ul>
+                        <li>One year free complimentary pass for 5 Members, 2 Visits per year</li>
+                        <li>Official Certificate of adoption</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹15,000</h3>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <ul class="list-unstyled">
+                          <li>Scarlet Macaw</li>
+                          <li>Slender Loris</li>
+                          <li>Mouse Deer</li>
+                          <li>Barasingha/Swamp Deer</li>
+                          <li>Thamin Deer</li>
+                          <li>Black Buck</li>
+                          <li>Red Necked Wallaby</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <ul class="list-unstyled">
+                          <li>Common Marmoset</li>
+                          <li>Brown Capuchin</li>
+                          <li>Spotted Deer</li>
+                          <li>Hog Deer</li>
+                          <li>Sambar Deer</li>
+                          <li>Eurasian Spoonbill</li>
+                          <li>Black Swan</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹10,000</h3>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <ul class="list-unstyled">
+                          <li>Rhesus Macaque</li>
+                          <li>Jungle Cat</li>
+                          <li>Leopard Cat</li>
+                          <li>Common Palm Civet</li>
+                          <li>Small Indian Civet</li>
+                          <li>Smooth Coated Otter</li>
+                          <li>Four-Horned Antelope</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <ul class="list-unstyled">
+                          <li>Indian Muntjac</li>
+                          <li>Himalayan Goral</li>
+                          <li>Asian Grey Hornbill</li>
+                          <li>Great Indian Hornbill</li>
+                          <li>Goffin's Cockatoo</li>
+                          <li>Salmon-Crested Cockatoo</li>
+                          <li>Lesser Sulphur-Crested Cockatoo</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Bronze Class -->
+          <div class="col-12 mb-5">
+            <h2 class="display-4 zen-tokyo-zoo-regular text-center">Bronze Class</h2>
+            <div class="col-md-8 mx-auto mb-4">
+              <table class="text-align-justify">
+                <tbody>
+                  <tr>
+                    <td class="h3 pr-4 v-align-top">🥉</td>
+                    <td class="v-align-top">
+                      <p>Privileges for one-year adoptions:</p>
+                      <ul>
+                        <li>One year free complimentary pass for 5 Members, 1 Visit per year (₹5,000/- Only)</li>
+                        <li>Official Certificate of adoption</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+              <div class="row g-4">
+              <!-- ₹5,000 Animals -->
+              <div class="col-md-6 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹5,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Indian Crested Porcupine</li>
+                      <li>Grey Junglefowl</li>
+                      <li>Peacock-White / Common Peafowl</li>
+                      <li>Red Junglefowl</li>
+                      <li>Silver Pheasant</li>
+                      <li>Common Ring Necked Pheasant</li>
+                      <li>Yellow Golden Pheasant</li>
+                      <li>Lady Amherst's Pheasant</li>
+                      <li>Golden Pheasant</li>
+                      <li>Common Barn Owl</li>
+                      <li>Brown Wood Owl</li>
+                      <li>Monitor Lizard</li>
+                      <li>Reticulated Python</li>
+                      <li>Indian Rock Python</li>
+                      <li>King Cobra</li>
+                      <li>Rough Scaled Sand Boa</li>
+                      <li>Green Iguana</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- ₹3,000 Animals -->
+              <div class="col-md-6 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹3,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Bar Headed Goose</li>
+                      <li>Spot-Billed Duck</li>
+                      <li>Lesser Whistling Duck</li>
+                      <li>Mandarin Duck</li>
+                      <li>Comb Duck</li>
+                      <li>Ruddy Shelduck</li>
+                      <li>Indian Pond Heron</li>
+                      <li>Purple Heron</li>
+                      <li>Black Crowned Night Heron</li>
+                      <li>Rock Dove</li>
+                      <li>Red Lory</li>
+                      <li>Dusky Lory</li>
+                      <li>Rainbow Lorikeet</li>
+                      <li>Eclectus Parrot</li>
+                      <li>Plum Headed Parakeet</li>
+                      <li>Alexandrine Parakeet</li>
+                      <li>Rose-Ringed Parakeet</li>
+                      <li>Grey Parrot</li>
+                      <li>Western Grey Parrot</li>
+                      <li>Jandaya Conure</li>
+                      <li>Sun Conure</li>
+                      <li>Nanday Conure</li>
+                      <li>Patagonian Burrowing Parrot</li>
+                      <li>Livingston's Turaco</li>
+                      <li>Indian Flapshell Turtle</li>
+                      <li>Indian Cobra</li>
+                      <li>Russels Viper</li>
+                      <li>Indian Black Turtle</li>
+                      <li>Star Tortoise</li>
+                      <li>Common Indian Krait</li>
+                      <li>Checkered Keelback Snake</li>
+                      <li>Bronzeback Tree Snake</li>
+                      <li>Common Kukri Snake</li>
+                      <li>Green Vine Snake</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- ₹1,000 Animals -->
+              <div class="col-md-6 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">₹1,000</h3>
+                    <ul class="list-unstyled">
+                      <li>Budgerigar</li>
+                      <li>Lovebird</li>
+                      <li>Cockatiel</li>
+                      <li>Finch</li>
+                      <li>White-Throated Munia</li>
+                      <li>Common Rat Snake</li>
+                      <li>Javan Sparrow</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+        <div class="row p-3 primary-bg">
+          <h2 class="display-4 zen-tokyo-zoo-regular text-center mb-4">Bank Details</h2>
+          <div class="col-md-12 mb-4">
+              <div class="card-body">
+          <p>Support Mysuru Zoo's conservation efforts by adopting an animal through a direct bank transfer. You can electronically transfer the adoption amount to the following account:</p>
+          <div class="row mt-4">
+            <div class="col-md-8 mx-auto">
+              <table class="table table-bordered bank-table">
+                <tbody>
+                  <tr>
+                    <td colspan="2" class="text-center"><strong>Member Secretary - Zoo Authority of Karnataka</strong></td>
+                  </tr>
+                  <tr>
+                    <td width="30%"><strong>Bank</strong></td>
+                    <td>Canara Bank</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Branch</strong></td>
+                    <td>Ittigegud Branch</td>
+                  </tr>
+                  <tr>
+                    <td><strong>IFSC</strong></td>
+                    <td>CNRB0011720</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Account Number</strong></td>
+                    <td>1720-214-0000028</td>
+                  </tr>
+                  <tr>
+                    <td><strong>PAN</strong></td>
+                    <td>AAAJZ0026F (For claiming Income Tax Rebate)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        
+          <div class="mt-4"></div>
+            <p>Upon confirmation of the transfer, Mysuru Zoo will send you an adoption certificate and complimentary passes. Please note that 50% of the adoption amount is exempted under Section 80G of the Income Tax Act. The bank charges for electronic transfers up to ₹1,00,000 are only ₹6.</p>
+            
+            <p>We encourage the general public, animal lovers, and educational institutions to take advantage of this opportunity and support wildlife conservation.</p>
+            
+            <div class="text-center mt-4">
+              <a href="./assets/downloads/Adoption_Brochure.pdf" class="btn btn-green" target="_blank">
+                <i class="fas fa-download me-2"></i>Download Adoption Brochure
+              </a>
+              <p class="mt-2">After downloading the application, please fill it out and send it to <a href="mailto:zoomysore@gmail.com">zoomysore@gmail.com</a> along with the payment details.</p>
+            </div>
+          </div>
+              </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <footer class="pt-5 pb-4">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <!-- Column 1 -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline">Mysore Zoo</h5>
+            <p>
+              Experience wildlife like never before. Visit us to explore diverse flora and fauna.
+            </p>
+          </div>
+          <!-- Column 2 -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About Zoo</a></li>
+              <li><a href="./animals.html">Animals</a></li>
+              <li><a href="./education.html">Community</a></li>
+              <li><a href="./visit.html">Visit</a></li>
+              <li><a href="./Adopt.html">Adopt</a></li>
+            </ul>
+          </div>
+          <!-- Column 3 -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline">Community</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" >Events</a></li>
+              <li><a href="#" >Education</a></li>
+              <li><a href="#" >Conservation</a></li>
+              <li><a href="#" >Volunteer</a></li>
+            </ul>
+          </div>
+          <!-- Column 4 -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline bigger-font">Contact</h5>
+            <p><span class="footer-subtitle-underline">Address:</span> Sri Chamarajendra Zoological Gardens, Zoo Main Road Indiranagar, Mysore, Karnataka 570010</p>
+            <p><span class="footer-subtitle-underline">Email:</span> <a href="mailto:zoomysore@gmail.com">zoomysore@gmail.com</a></p>
+            <p><span class="footer-subtitle-underline">Phone:</span> <a href="tel:+918212440752">+91 0821 244 0752</a></p>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="copyright">© 2023 Mysore Zoo. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+              <span>Follow us:</span>
+              <a href="https://www.facebook.com/srichamarajendra.zoologicalgardens" class="me-4">Facebook</a>
+              <a href="https://x.com/Mysore_Zoo" class="me-4">Twitter</a>
+              <a href="https://www.instagram.com/mysuru_zoo/" class="me-4">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
