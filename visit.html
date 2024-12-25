@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mysore Zoo</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,136 +40,301 @@
               <li class="nav-item">
                 <a class="nav-link" href="./Adopt.html">Adopt</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tickets.html">Tickets</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselAutoplaying" class="carousel slide hero" data-bs-ride="carousel" style="position: absolute; top: 0; left: 0; width: 100%; z-index: -1;">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/elephant.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1 class="display-1 text-white zen-tokyo-zoo-regular"><strong>Welcome to Mysore Zoo</strong></h1>
-              <!-- <p class="display-5 text-white"><em>We eagerly await your visit.</em></p> -->
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/twotiger.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/HeroChimp.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/animals/primates/Lion tailed macaque .jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button>
+        </button> -->
       </div>
-      <div class="container-fluid text-center">
-        <div class="row p-3 pt-4">
-          <div class="col">
-            <h1 class="display-3 zen-tokyo-zoo-regular"><strong>Sri Chamarajendra Zoological Gardens</strong></h1>
+      <div class="px-4 py-5 my-8 text-center hero hero-main v-align-center" style="position: relative; z-index: 1;">
+        <h1 class="display-1 hero-title fw-bold text-body-emphasis zen-tokyo-zoo-regular">Visitor's Guide</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">View a map of the zoo and the amenties available. Buy tickets online and plan your visit to the zoo.</p>
+          <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="./tickets.html"><button type="button" class="btn btn-regular px-4 gap-3">Buy Tickets</button></a>
+            <a href="./visit.html"><button type="button" class="btn btn-green btn-lg px-4">Map & Amenities</button></a>
+          </div> -->
+        </div>
+      </div>
+      <div class="container-fluid bg-black">
+        <div class="row p-3 pt-4 bg-black">
+          <div class="col text-center">
+            <h1 class="display-3 zen-tokyo-zoo-regular"><strong>Timings & The Best Time to Visit</strong></h1>
           </div>
         </div>
-        <div class="row p-3">
-          <div class="col-12 col-md-6">
-            <img src="./assets/explore-zoo.png" class="img-fluid" alt="Explore Zoo">
-          </div>
-          <div class="col-12 col-md-6 container-fluid">
-            <p>Mysuru Zoo is one of the oldest zoos of the country established by his highness, the erstwhile ruler of Mysuru Sri Chamarajendra Wadiyar Bahadur. Mysuru Zoo is known for its meticulous planning, cleanliness, conservation, breeding of endangered species, and housing exotic animals from around the globe and recreation of natural habitat for captive animals.</p>
-            <p>The zoo is located in the heart of the city and its easy accessibility for public transport and other various tourist places has made it a much favored tourist center. Mysuru Zoo sports favorable climate, the temperatures goes up to 35 degrees in peak summer and below 20 degrees in winters.</p>
+        <div class="row p-3 pt-4">
+          <h3 class="text-align-left decor-underline">Zoo Timings:</h3>
+          <h4>The zoo is open everyday from 8:30 A.M. to 5:30 P.M. <em class="decor-underline">The Zoo is closed for visitors every Tuesday.</em></h4>
+          <h3 class="text-align-left decor-underline mt-3">When to Visit:</h3>
+          <p>Any time of the day is suitable for visiting the Zoo. Coving to its lush green cover, the orientation of animal houses and visitor amenities. Those who wish to focus on only big cats are advised to schedule the visit early morning or evening as cats tend to rest during the day. There are 149 species housed at the zoo.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-3">
+            <a href="./tickets.html"><button type="button" class="btn btn-regular px-4 gap-3">Buy Tickets</button></a>
           </div>
         </div>
         <div class="row p-3 pt-4 primary-bg">
-          <h1 class="display-3 text-white zen-tokyo-zoo-regular"><strong>Our Mission & History</strong></h1>
+          <h1 class="display-3 text-white zen-tokyo-zoo-regular text-center"><strong>Map of the Zoo</strong></h1>
         </div>
-        <div class="row p-3 primary-bg">
-          <div class="col-12 col-md-7">
-            <p><em>"To connect visitors and animals through exemplary animal welfare and care, best educational and inspirational experiences, fostering public appreciation and support for wild animals and conservation”</em></p>
-            <h1 class="display-4 p-3 zen-tokyo-zoo-regular">Our History</h1>
-            <table class="text-align-justify">
-              <tbody>
-                <tr>
-                  <td class="display-6 pr-4 v-align-top">1892</td>
-                  <td class="v-align-top">Established with 10.9 acres area</td>
-                </tr>
-                <tr>
-                  <td class="display-6 pr-4 v-align-top">1907</td>
-                  <td class="v-align-top">An additional 6.22 acres was included. For the first time, a large ape enclosure was built in the country at Mysuru Zoo</td>
-                </tr>
-                <tr>
-                  <td class="display-6 pr-4 v-align-top">1909</td>
-                  <td class="v-align-top">Zoo was named after the founder Sri Chamarajendra Wodeyar Bahadur. Mr. G.H. Krumbeigal, a German landscaper and horticulturist, was engaged to create the beautiful and attractive landscape of Mysuru Zoo ...</td>
-                </tr>
-              </tbody>
-            </table>
-            <a href="./about.html" class="btn btn-green btn-lg m-3">Read More</a>
-          </div>
-          <div class="col-12 col-md-5">
-            <img src="./assets/chimp.png" class="img-fluid" alt="Explore Zoo">
+        <div id="map" class="row p-3 primary-bg">
+          <div class="col-12 text-center">
+            <img src="./assets/zoo-map.jpg" class="img-fluid" alt="Map of the Zoo">
           </div>
         </div>
-      </div>
-      <footer class="primary-bg pt-5 pb-4">
-        <div class="container text-md-left">
-          <div class="row text-md-left">
-            <!-- Column 1 -->
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline">Mysore Zoo</h5>
-              <p>
-                Experience wildlife like never before. Visit us to explore diverse flora and fauna.
-              </p>
-            </div>
-            <!-- Column 2 -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline">Quick Links</h5>
-              <ul class="list-unstyled">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Zoo</a></li>
-                <li><a href="./animals.html">Animals</a></li>
-                <li><a href="./education.html">Community</a></li>
-                <li><a href="./visit.html">Visit</a></li>
-                <li><a href="./Adopt.html">Adopt</a></li>
-              </ul>
-            </div>
-            <!-- Column 3 -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline">Community</h5>
-              <ul class="list-unstyled">
-                <li><a href="#" >Events</a></li>
-                <li><a href="#" >Education</a></li>
-                <li><a href="#" >Conservation</a></li>
-                <li><a href="#" >Volunteer</a></li>
-              </ul>
-            </div>
-            <!-- Column 4 -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline bigger-font">Contact</h5>
-              <p><span class="footer-subtitle-underline">Address:</span> Sri Chamarajendra Zoological Gardens, Zoo Main Road Indiranagar, Mysore, Karnataka 570010</p>
-              <p><span class="footer-subtitle-underline">Email:</span> <a href="mailto:zoomysore@gmail.com">zoomysore@gmail.com</a></p>
-              <p><span class="footer-subtitle-underline">Phone:</span> <a href="tel:+918212440752">+91 0821 244 0752</a></p>
-            </div>
+        <div class="row p-3 pt-4 text-center primary-bg">
+          <div class="col-12">
+          <a href="./assets/zoo-map.jpg" download="zoo-map.jpg" class="btn btn-green btn-lg m-3">Download Map</a>
+          <a href="https://maps.app.goo.gl/gYNVhRasLjSwDuDQ8" class="btn btn-green btn-lg m-3">Get Directions via Google Maps</a>
           </div>
-          <hr class="mb-4">
-          <div class="row align-items-center">
-            <div class="col-md-7 col-lg-8">
-              <p class="copyright">© 2023 Mysore Zoo. All Rights Reserved.</p>
-            </div>
-            <div class="col-md-5 col-lg-4">
-              <div class="text-center text-md-right">
-                <span>Follow us:</span>
-                <a href="https://www.facebook.com/srichamarajendra.zoologicalgardens" class="me-4">Facebook</a>
-                <a href="https://x.com/Mysore_Zoo" class="me-4">Twitter</a>
-                <a href="https://www.instagram.com/mysuru_zoo/" class="me-4">Instagram</a>
+        </div>
+        <div class="row p-3 text-center">
+          <div id="visitor-amenities" class="container py-5">
+            <h2 class="display-2 text-center mb-5 zen-tokyo-zoo-regular">Visitor Amenities</h2>
+            <div class="row">
+              <!-- Battery Operated Vehicles -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Battery operated vehicles.jpg" class="card-img-top" alt="Battery Operated Vehicles">
+                  <div class="card-body">
+                    <h5 class="card-title">Battery Operated Vehicles</h5>
+                    <p class="card-text">Eco-friendly rides for a comfortable tour of the zoo.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Emergency Contact Details -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Emergency Contact details.jpg" class="card-img-top" alt="Emergency Contact Details">
+                  <div class="card-body">
+                    <h5 class="card-title">Emergency Contact Details</h5>
+                    <p class="card-text">Important phone numbers for urgent assistance.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Food Court -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Food court.jpg" class="card-img-top" alt="Food Court">
+                  <div class="card-body">
+                    <h5 class="card-title">Food Court</h5>
+                    <p class="card-text">Delicious meals and refreshments close at hand.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Library -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Library.jpg" class="card-img-top" alt="Library">
+                  <div class="card-body">
+                    <h5 class="card-title">Library</h5>
+                    <p class="card-text">Learn more about wildlife through books and exhibits.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Luggage Room -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Luggage room.jpg" class="card-img-top" alt="Luggage Room">
+                  <div class="card-body">
+                    <h5 class="card-title">Luggage Room</h5>
+                    <p class="card-text">Secure space to store your bags during your visit.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Mother and Child Care Unit -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Mother and child care unit.jpg" class="card-img-top" alt="Mother and Child Care Unit">
+                  <div class="card-body">
+                    <h5 class="card-title">Mother &amp; Child Care Unit</h5>
+                    <p class="card-text">Comfortable area equipped for nursing and childcare.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Multiple R.O Water Dispensers -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Multiple R.O Water Dispensers.jpg" class="card-img-top" alt="Multiple R.O Water Dispensers">
+                  <div class="card-body">
+                    <h5 class="card-title">R.O Water Dispensers</h5>
+                    <p class="card-text">Quick refill stations for clean drinking water.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Restaurants -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Resturants.jpg" class="card-img-top" alt="Restaurants">
+                  <div class="card-body">
+                    <h5 class="card-title">Restaurants</h5>
+                    <p class="card-text">A variety of dining options for every taste.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Souvenir Shop -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Souvenir shop.jpg" class="card-img-top" alt="Souvenir Shop">
+                  <div class="card-body">
+                    <h5 class="card-title">Souvenir Shop</h5>
+                    <p class="card-text">Memorable gifts and mementos to take home.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Vehicle Parking -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/VehicleParking.jpg" class="card-img-top" alt="Vehicle Parking">
+                  <div class="card-body">
+                    <h5 class="card-title">Vehicle Parking</h5>
+                    <p class="card-text">Spacious parking facilities for all types of vehicles.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Wheelchairs -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Wheel chairs.jpg" class="card-img-top" alt="Wheel Chairs">
+                  <div class="card-body">
+                    <h5 class="card-title">Wheelchairs</h5>
+                    <p class="card-text">Accessibility support for visitors with mobility needs.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Zoo Maps on Boards -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/Zoo maps on boards.jpg" class="card-img-top" alt="Zoo Maps on Boards">
+                  <div class="card-body">
+                    <h5 class="card-title">Zoo Maps</h5>
+                    <p class="card-text">Navigational guides placed around the premises.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- E-Ticketing at Booth -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/e-ticketing-at-booth.webp" class="card-img-top" alt="E-Ticketing at Booth">
+                  <div class="card-body">
+                    <h5 class="card-title">E-Ticketing at Booth</h5>
+                    <p class="card-text">Hassle-free entry with online ticket purchases.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- First Aid Facility -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/first-aid-facility.webp" class="card-img-top" alt="First Aid Facility">
+                  <div class="card-body">
+                    <h5 class="card-title">First Aid Facility</h5>
+                    <p class="card-text">Basic medical assistance available for emergencies.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Hands-Free Sanitizer -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/hands-free-sanitizer.webp" class="card-img-top" alt="Hands-Free Sanitizer">
+                  <div class="card-body">
+                    <h5 class="card-title">Hands-Free Sanitizer</h5>
+                    <p class="card-text">Contactless sanitizer stations placed throughout.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Resting Benches -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/resting benches.webp" class="card-img-top" alt="Resting Benches">
+                  <div class="card-body">
+                    <h5 class="card-title">Resting Benches</h5>
+                    <p class="card-text">Comfortable seating spots to relax during your visit.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Shelters -->
+              <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                  <img src="./assets/amenities/shelters.webp" class="card-img-top" alt="Shelters">
+                  <div class="card-body">
+                    <h5 class="card-title">Shelters</h5>
+                    <p class="card-text">Stay protected from elements while exploring the zoo.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+      </div>
+    <footer class="primary-bg pt-5 pb-4">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <!-- Column 1 -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline">Mysore Zoo</h5>
+            <p>
+              Experience wildlife like never before. Visit us to explore diverse flora and fauna.
+            </p>
+          </div>
+          <!-- Column 2 -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About Zoo</a></li>
+              <li><a href="./animals.html">Animals</a></li>
+              <li><a href="./education.html">Community</a></li>
+              <li><a href="./visit.html">Visit</a></li>
+              <li><a href="./Adopt.html">Adopt</a></li>
+            </ul>
+          </div>
+          <!-- Column 3 -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline">Community</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" >Events</a></li>
+              <li><a href="#" >Education</a></li>
+              <li><a href="#" >Conservation</a></li>
+              <li><a href="#" >Volunteer</a></li>
+            </ul>
+          </div>
+          <!-- Column 4 -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline bigger-font">Contact</h5>
+            <p><span class="footer-subtitle-underline">Address:</span> Sri Chamarajendra Zoological Gardens, Zoo Main Road Indiranagar, Mysore, Karnataka 570010</p>
+            <p><span class="footer-subtitle-underline">Email:</span> <a href="mailto:zoomysore@gmail.com">zoomysore@gmail.com</a></p>
+            <p><span class="footer-subtitle-underline">Phone:</span> <a href="tel:+918212440752">+91 0821 244 0752</a></p>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="copyright">© 2023 Mysore Zoo. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+              <span>Follow us:</span>
+              <a href="https://www.facebook.com/srichamarajendra.zoologicalgardens" class="me-4">Facebook</a>
+              <a href="https://x.com/Mysore_Zoo" class="me-4">Twitter</a>
+              <a href="https://www.instagram.com/mysuru_zoo/" class="me-4">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
