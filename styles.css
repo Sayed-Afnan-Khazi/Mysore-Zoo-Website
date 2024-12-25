@@ -37,6 +37,11 @@ body {
 .navbar-text {
     color: var(--text);
 }
+.nav-link.active {
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 3px;
+}
 
 .primary-bg {
     background-color: var(--primary);
@@ -90,12 +95,17 @@ p {
     background-color: var(--background);
 }
 
+
 .bg-fox-steps {
     background: url('./assets/footsteps.png') no-repeat;
 }
 
 .bg-orange {
     background-color: #ba5020;
+}
+
+.bg-accent {
+    background-color: var(--accent);
 }
 
 .circle-img {
@@ -204,12 +214,17 @@ a:hover {
 
 .btn-accent {
     background-color: var(--accent);
-    color: var(--text);
+    color: var(--primary);
     border: none;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+.btn-accent:hover {
+    background-color: var(--secondary);
+    color: var(--text);
 }
 
 .card {
@@ -252,4 +267,12 @@ a:hover {
 
 .bank-table > tbody > tr > td {
     background-color: var(--primary-dark) !important;
+}
+
+.th-primary-bg {
+    background-color: var(--primary) !important;
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 3px;
+    font-size: 1.3rem;
 }
