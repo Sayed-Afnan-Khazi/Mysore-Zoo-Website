@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mysore Zoo</title>
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +32,7 @@
                 <a class="nav-link" href="./animals.html">Animals</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active navbar-text" aria-current="page" href="#">Community</a>
+                <a class="nav-link active navbar-text" aria-current="page" href="./education.html">Community</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./visit.html">Visit</a>
@@ -43,39 +43,35 @@
               <li class="nav-item">
                 <a class="nav-link" href="./tickets.html">Tickets</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link v-align-center" href="#google_translate_element"><img src="./assets/translate.png" height="30px" width="30px"></a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselAutoplaying" class="carousel slide hero" data-bs-ride="carousel" style="position: absolute; top: 0; left: 0; width: 100%; z-index: -1;">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/elephant.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1 class="display-1 text-white zen-tokyo-zoo-regular"><strong>Welcome to Mysore Zoo</strong></h1>
-              <!-- <p class="display-5 text-white"><em>We eagerly await your visit.</em></p> -->
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/twotiger.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/HeroChimp.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/animals/carnivores/Bengal Fox.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-        </button>
+        </button> -->
       </div>
-      <div class="container-fluid text-center">
+      <div class="px-4 py-5 my-8 text-center hero hero-main v-align-center" style="position: relative; z-index: 1;">
+        <h1 class="display-1 hero-title fw-bold text-body-emphasis zen-tokyo-zoo-regular">Community, News, & Education</h1>
+      </div>
+      <div class="container-fluid bg-black">
         <div class="row p-3 pt-4">
           <div class="col">
-            <h1 class="display-3 zen-tokyo-zoo-regular"><strong>Sri Chamarajendra Zoological Gardens</strong></h1>
+            <h1 class="display-3 text-center zen-tokyo-zoo-regular"><strong>Sri Chamarajendra Zoological Gardens</strong></h1>
           </div>
         </div>
         <div class="row p-3">
@@ -88,12 +84,12 @@
           </div>
         </div>
         <div class="row p-3 pt-4 primary-bg">
-          <h1 class="display-3 text-white zen-tokyo-zoo-regular"><strong>Our Mission & History</strong></h1>
+          <h1 class="display-3 text-white zen-tokyo-zoo-regular text-center"><strong>Our Mission & History</strong></h1>
         </div>
         <div class="row p-3 primary-bg">
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-md-7 text-center">
             <p><em>"To connect visitors and animals through exemplary animal welfare and care, best educational and inspirational experiences, fostering public appreciation and support for wild animals and conservation”</em></p>
-            <h1 class="display-4 p-3 zen-tokyo-zoo-regular">Our History</h1>
+            <h1 class="display-4 p-3 zen-tokyo-zoo-regular text-center">Our History</h1>
             <table class="text-align-justify">
               <tbody>
                 <tr>
@@ -116,63 +112,87 @@
             <img src="./assets/chimp.png" class="img-fluid" alt="Explore Zoo">
           </div>
         </div>
-      </div>
-      <footer class="primary-bg pt-5 pb-4">
-        <div class="container text-md-left">
-          <div class="row text-md-left">
-            <!-- Column 1 -->
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline">Mysore Zoo</h5>
-              <p>
-                Experience wildlife like never before. Visit us to explore diverse flora and fauna.
-              </p>
-            </div>
-            <!-- Column 2 -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline">Quick Links</h5>
-              <ul class="list-unstyled">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Zoo</a></li>
-                <li><a href="./animals.html">Animals</a></li>
-                <li><a href="./education.html">Community</a></li>
-                <li><a href="./visit.html">Visit</a></li>
-                <li><a href="./Adopt.html">Adopt</a></li>
-              </ul>
-            </div>
-            <!-- Column 3 -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline">Community</h5>
-              <ul class="list-unstyled">
-                <li><a href="#" >Events</a></li>
-                <li><a href="#" >Education</a></li>
-                <li><a href="#" >Conservation</a></li>
-                <li><a href="#" >Volunteer</a></li>
-              </ul>
-            </div>
-            <!-- Column 4 -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 class="mb-4 font-weight-bold footer-title-underline bigger-font">Contact</h5>
-              <p><span class="footer-subtitle-underline">Address:</span> Sri Chamarajendra Zoological Gardens, Zoo Main Road Indiranagar, Mysore, Karnataka 570010</p>
-              <p><span class="footer-subtitle-underline">Email:</span> <a href="mailto:zoomysore@gmail.com">zoomysore@gmail.com</a></p>
-              <p><span class="footer-subtitle-underline">Phone:</span> <a href="tel:+918212440752">+91 0821 244 0752</a></p>
-            </div>
+        <div class="row p-3 pt-4 ">
+          <div class="col">
+            <h1 class="display-3 zen-tokyo-zoo-regular text-center"><strong>Adoption</strong></h1>
           </div>
-          <hr class="mb-4">
-          <div class="row align-items-center">
-            <div class="col-md-7 col-lg-8">
-              <p class="copyright">© 2023 Mysore Zoo. All Rights Reserved.</p>
-            </div>
-            <div class="col-md-5 col-lg-4">
-              <div class="text-center text-md-right">
-                <span>Follow us:</span>
-                <a href="https://www.facebook.com/srichamarajendra.zoologicalgardens" class="me-4">Facebook</a>
-                <a href="https://x.com/Mysore_Zoo" class="me-4">Twitter</a>
-                <a href="https://www.instagram.com/mysuru_zoo/" class="me-4">Instagram</a>
-              </div>
+        </div>
+        <div class="row p-3 bg-fox-steps text-center">
+          <div class="col-12 col-md-6">
+            <img src="./assets/Jackal002.jpg" class="img-fluid circle-img" alt="Explore Zoo">
+          </div>
+          <div class="col-12 col-md-6 container-fluid">
+            <p>The adoption programme is a novel way to show your support and care for wild animals. By adopting your favourite animal, you will contribute towards feeding of the animal for one full year (or period of adoption). </p>
+            <p>Join us and be part of Mysuru Zoo's efforts in wildlife conservation.</p>
+            <a href="./Adopt.html" class="btn btn-regular btn-lg m-3">Adopt Now</a>
+          </div>
+        </div>
+      </div>
+    <footer class="primary-bg pt-5 pb-4">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <!-- Column 1 -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline">Mysore Zoo</h5>
+            <p>
+              Experience wildlife like never before. Visit us to explore diverse flora and fauna.
+            </p>
+          </div>
+          <!-- Column 2 -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About Zoo</a></li>
+              <li><a href="./animals.html">Animals</a></li>
+              <li><a href="./education.html">Community</a></li>
+              <li><a href="./visit.html">Visit</a></li>
+              <li><a href="./Adopt.html">Adopt</a></li>
+            </ul>
+          </div>
+          <!-- Column 3 -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline">Community</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" >Events</a></li>
+              <li><a href="#" >Education</a></li>
+              <li><a href="#" >Conservation</a></li>
+              <li><a href="#" >Volunteer</a></li>
+            </ul>
+          </div>
+          <!-- Column 4 -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold footer-title-underline bigger-font">Contact</h5>
+            <p><span class="footer-subtitle-underline">Address:</span> Sri Chamarajendra Zoological Gardens, Zoo Main Road Indiranagar, Mysore, Karnataka 570010</p>
+            <p><span class="footer-subtitle-underline">Email:</span> <a href="mailto:zoomysore@gmail.com">zoomysore@gmail.com</a></p>
+            <p><span class="footer-subtitle-underline">Phone:</span> <a href="tel:+918212440752">+91 0821 244 0752</a></p>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+          <div class="col-md-12 col-lg-4">
+            <p class="copyright">© 2023 Mysore Zoo. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <div id="translator-dropdown"><div id="google_translate_element"></div></div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <div class="text-center text-md-right">
+              <span>Follow us:</span>
+              <a href="https://www.facebook.com/srichamarajendra.zoologicalgardens" class="me-4">Facebook</a>
+              <a href="https://x.com/Mysore_Zoo" class="me-4">Twitter</a>
+              <a href="https://www.instagram.com/mysuru_zoo/" class="me-4">Instagram</a>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>

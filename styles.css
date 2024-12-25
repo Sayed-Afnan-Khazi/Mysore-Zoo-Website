@@ -27,6 +27,9 @@ body {
     font-size: 1.2rem;
 }
 .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background-color: var(--background);
     font-size: 1.5rem;
 }
