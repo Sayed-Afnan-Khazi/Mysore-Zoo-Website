@@ -279,3 +279,8 @@ a:hover {
     text-decoration-thickness: 3px;
     font-size: 1.3rem;
 }
+
+.img-polaroid-border {
+    border: 10px solid var(--text);
+    border-bottom: 30px solid var(--text);
+}
